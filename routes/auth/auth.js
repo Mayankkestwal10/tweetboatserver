@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.post('/register', registerationValid, registeration);
 router.post('/login', loginValidation, login);
-router.get('/welcome', (req, res, next)=>{
+router.get('/', (req, res, next)=>{
     return res.status(200).json({
         "message": "Welcome to TweetBoat"
     });

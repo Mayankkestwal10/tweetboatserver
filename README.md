@@ -57,7 +57,7 @@ You need to have node in your system
 
 1. ```git clone https://github.com/Mayankkestwal10/tweetboatserver```
 
-2. ```cd tweetboatclient```
+2. ```cd tweetboatserver```
 
 3. ```npm install```
 
